@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/nintendo.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <title>Nintendo</title>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="video_container">
+        <iframe src="https://www.youtube.com/embed/WniaKJzCNRI?autoplay=1&mute=1&controls=0&start=10&end=17&loop=1&playlist=WniaKJzCNRI" allowfullscreen></iframe>
+      </div>
+      <div class="header_center">
+        <!-- 헤더부분 로고&메뉴 -->
+        <div class="logo_nav_group">
+          <div class="logo_wrap">
+            <h1><a href="#" class="screen_out">Nintendo</a></h1>
+          </div>
+          <nav>
+            <h2 class="screen_out">Nintendo Navigation</h2>
+            <ul>
+              <li><a href="#">About Nintendo</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Nintendo TV</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="line_box">
+            <span class="line"></span> <!--mobile menu button_top-->
+            <span class="line"></span> <!--mobile menu button_bottom-->
+          </a>
+        </div>
+        <!-- 헤더부분 문구,버튼,스크롤 -->
+        <div class="intro">
+          <span class="intro_shortinfo">Creating smiles for generations</span>
+          <h2 class="intro_brand">Nintendo</h2>
+          <p class="intro_longinfo">Nintendo's mission is to put smiles on the faces of everyone we touch. We do so by creating new surprises for people across the world to enjoy together.</p>
+          <a href="#" class="view_more">View more +</a>
+        </div>
+        <div class="scroll_box01">
+          <!-- <div class="scroll_line_header"></div> -->
+          <svg width="10" height="100">
+            <defs>
+              <clipPath id="scroll_line_header">
+                <rect width="2" height="50">
+                  <animate attributeName="y" values="0;100;" dur="1s" repeatCount="indefinite"></animate>
+                </rect>
+              </clipPath>
+            </defs>
+            <rect width="2" height="100" fill="none"></rect>
+            <rect clip-path="url(#scroll_line_header)" width="2" height="100" fill="#fff"></rect>
+          </svg>
+          <span class="intro_scroll">scroll</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="sticky">
+        <div class="our_history standard">
+          <div class="history_center">
+            <div class="history_intro">
+              <h3>Our history</h3>
+              <p>We've been dedicated to our mission for a long time—since 1889, in fact.</p>
+              <div class="scroll_box02">
+                <span class="history_scroll">scroll</span>
+                <div class="scroll_line_history"></div>
+              </div>
+            </div>
+            <div class="separate_line"></div> <!--나눔선-->
+            <!-- 1889 -->
+            <div class="history_box">
+              <div class="yamauchi">
+                <a href="#">
+                  <div class="history_img"></div>
+                  <p>1889</p>
+                  <p>Fusajiro Yamauchi began a small business.</p>
+                </a>
+              </div>
+              <!-- 1981 -->
+              <div class="donkeykong">
+                <a href="#">
+                  <div class="history_img"></div>
+                  <p>1981</p>
+                  <p>Developed the Donkey Kong™.</p>
+                </a>
+              </div>
+              <!-- 1998 -->
+              <div class="gameboy">
+                <a href="#">
+                  <div class="history_img"></div>
+                  <p>1998</p>
+                  <p>Nintendo introduced Game Boy Color™.</p>
+                </a>
+              </div>
+              <!-- 2004 -->
+              <div class="nintendods">
+                <a href="#">
+                  <div class="history_img"></div>
+                  <p>2004</p>
+                  <p>Nintendo DS™ has launched.</p>
+                </a>
+              </div>
+              <!-- 2017 -->
+              <div class="nintendoswitch">
+                <a href="#">
+                  <div class="history_img"></div>
+                  <p>2017</p>
+                  <p>The Nintendo Switch™ system launched.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- our history -->
+
+      <div class="shop_switch">
+        <div class="shop_switch_center">
+          <h3>Nintendo Switch</h3>
+          <div class="switch_box">
+            <div class="oledswitch" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+              <div class="switch_img"></div>
+              <p>Nintendo Switch - OLED Model</p>
+              <p>Featuring a vibrant OLED screen.</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div class="switch" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100" data-aos-once="true">
+              <div class="switch_img"></div>
+              <p>Nintendo Switch</p>
+              <p>Play at home or on-the-go.</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div class="switchlite" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200" data-aos-once="true">
+              <div class="switch_img"></div>
+              <p>Nintendo Switch Lite</p>
+              <p>Dedicated to handheld play.</p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shop - nintendo switch -->
+
+      <div class="shop_games">
+        <div class="shop_games_center">
+          <h3>Games</h3>
+          <div class="slide">
+            <button class="prev">prev</button>
+            <button class="next">next</button>
+            <div class="game_box">
+              <div class="games01">
+                <a href="#">
+                  <div class="game_img"></div>
+                  <p>Everybody 1-2-Switch™!</p>
+                  <p>$29.99</p>
+                </a>
+              </div>
+              <div class="games02">
+                <a href="#">
+                  <div class="game_img"></div>
+                  <p>The Legend of Zelda™</p>
+                  <p>$69.99</p>
+                </a>
+              </div>
+              <div class="games03">
+                <a href="#">
+                  <div class="game_img"></div>
+                  <p>Mario Kart™ 8 Deluxe</p>
+                  <p>$59.99</p>
+                </a>
+              </div>
+              <div class="games04">
+                <a href="#">
+                  <div class="game_img"></div>
+                  <p>Pikmin™ 4</p>
+                  <p>$59.99</p>
+                </a>
+              </div>
+              <div class="games05">
+                <a href="#">
+                  <div class="game_img"></div>
+                  <p>Animal Crossing</p>
+                  <p>$22.99</p>
+                </a>
+              </div>
+              <div class="games06">
+                <a href="#">
+                  <div class="game_img"></div>
+                  <p>NBA 2K23</p>
+                  <p>$32.99</p>
+                </a>
+              </div>
+              <div class="games07">
+                <a href="#">
+                  <div class="game_img"></div>
+                  <p>Sonic Origins</p>
+                  <p>$22.99</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shop - nintendo games -->
+
+      <div class="nintendotv">
+        <div class="nintendotv_center">
+          <h3>Nintendo on YouTube</h3>
+          <div class="nintendotv_box">
+            <div class="bigscreen">
+              <iframe src="https://www.youtube.com/embed/GWhyfKJblps?autoplay=1&mute=1&loop=1&playlist=GWhyfKJblps"></iframe>
+            </div>
+            <div class="smallscreen">
+              <p><span>Nintendo TV</span></p>
+              <ul class="tv_scroll">
+                <li>
+                  <a href="https://www.youtube.com/embed/6Sk42S7Xolw">
+                    <img src="./img/youtube_06.png">
+                    <div class="thumbnail_info"><p>Clash of Heroes:Definition Edition-Launch Trailer</p></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/embed/OdmEANJLrYs">
+                    <img src="./img/youtube_07.png">
+                    <div class="thumbnail_info"><p>Jujutsu Kaisen Cursed Clash-Announcement Trailer</p></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/embed/ove7rc4dFRs">
+                    <img src="./img/youtube_08.png">
+                    <div class="thumbnail_info"><p>EA SPORTS FC24-Pre-order Trailer</p></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/embed/5iF9pBmZZr4">
+                    <img src="./img/youtube_05.png">
+                    <div class="thumbnail_info"><p>Ember Knights - Launch Trailer</p></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/embed/bqxPTr3ewLk">
+                    <img src="./img/youtube_09.png">
+                    <div class="thumbnail_info"><p>The Legend of Heroes: Trails into Reverie - Launch Trailer</p></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="support">
+        <div class="support_center">
+          <h3>Support</h3>
+          <div class="support_box">
+            <div class="faq" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+              <div></div>
+              <a href="#">FAQ</a>
+            </div>
+            <div class="findus" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+              <div></div>
+              <a href="#">Find us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="sns_center">
+        <div class="sns_box">
+          <div class="sns">
+            <a href="#" class="screen_out">Facebook</a> <!--Facebook icon-->
+            <a href="#" class="screen_out">Instagram</a> <!--Instagram icon-->
+            <a href="#" class="screen_out">Twitter</a> <!--Twitter icon-->
+            <a href="#" class="screen_out">YouTube</a> <!--YouTube icon-->
+          </div>
+          <div class="law_footer_box">
+            <div class="laws">
+              <p><a href="#">Contact us</a></p>
+              <p><a href="#">Website feedback</a></p>
+              <p><a href="#">Terms of use</a></p>
+            </div>
+            <div class="footer_logo">
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/nintendo.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
